@@ -1,0 +1,25 @@
+server:
+  name: go-subscription
+  port: 8080
+
+log:
+  level: info
+  map:
+    time: "@timestamp"
+    msg: message
+
+mongo:
+  uri: mongodb+srv://dbUser:Demoaccount1@projectdemo.g0lah.mongodb.net
+  database: masterdata
+
+retry:
+  retry_count_name: retry
+  limit_retry: 3
+  goroutines: false
+  key: key
+
+sqs:
+  region: us-west-2
+  access_key_id: abc
+  secret_access_key: abc
+  queue_name: abc
