@@ -1,0 +1,1 @@
+# go-amazon-sqs-sample
