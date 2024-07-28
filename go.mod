@@ -4,15 +4,15 @@ go 1.18
 
 require (
 	github.com/core-go/config v1.0.1
-	github.com/core-go/health v1.0.1
+	github.com/core-go/health v1.0.3
 	github.com/core-go/mongo v1.1.1
-	github.com/core-go/mq v0.6.11
+	github.com/core-go/mq v0.7.0
 	github.com/core-go/sqs v1.0.0
 	go.mongodb.org/mongo-driver v1.16.0
 )
 
 require (
-	github.com/aws/aws-sdk-go v1.54.20 // indirect
+	github.com/aws/aws-sdk-go v1.55.3 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.4 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect

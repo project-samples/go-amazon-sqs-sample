@@ -9,7 +9,7 @@ import (
 )
 
 type Config struct {
-	Server server.ServerConf     `mapstructure:"server"`
+	Server server.ServerConfig   `mapstructure:"server"`
 	Log    log.Config            `mapstructure:"log"`
 	Mongo  MongoConfig           `mapstructure:"mongo"`
 	SQS    sqs.Config            `mapstructure:"sqs"`
